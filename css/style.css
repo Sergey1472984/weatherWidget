@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.weatherWidget {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px skyblue solid;
+}
+
+.weatherNow {
+    height: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    font-weight: 700;
+    color: snow;
+}
+
+.placeAndTime {
+    padding: 5px 0 0 10px;
+}
+
+.weatherFeature {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.wind {
+    padding: 70px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wind p {
+    display: inline-block;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 20px;
+    color: #f18241;
+    background-color: rgba(135, 206, 235, 0.1);
+    border: 1px  rgba(135, 206, 235, 0.4) solid;
+
+}
+
+.items img {
+    padding: 20px 50px 20px 0;
+}
+
+.itemTime {
+    padding: 20px;
+}
+
+.itemTemp {
+    margin: 30px;
+}
